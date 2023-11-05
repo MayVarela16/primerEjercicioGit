@@ -1,0 +1,176 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+   *{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: "roboto" , san serif;
+    font-size:20px;
+   }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    cursor: pointer;
+}
+@media (max-width:480px) {
+    .nav-menu {
+      background-color: rgba(82, 188, 220, 0.241);
+    }
+  }
+
+
+.header .nav-menu {
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bolder;
+}
+
+@media (max-width:768px) {
+    .header .nav-menu {
+      display: none;
+    }
+  }
+
+.header .nav-menu li {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:wrap;
+    padding:0 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color:rgb(62, 205, 205);
+
+}
+
+.header .menu-abajo {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    }
+
+    @media (max-width:480px) {
+        .menu-abajo {
+          background-color: rgba(82, 188, 220, 0.241);
+        }
+      }
+      
+      @media (max-width:768px) {
+        .header .menu-abajo {
+          display: none;
+        }
+      }
+    .header .menu-abajo li {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap:wrap;
+        padding:0 20px;
+        font-size: 13px;
+        color:rgb(62, 205, 205);
+        }
+  
+    
+    .iconos {
+        display: flexbox
+        justify-content: space-evenly;
+        align-items: center;
+        cursor: pointer;
+        }
+
+    .iconos img {
+        margin: 10px;
+    
+    }
+
+    .conteiner {
+        background-image: url("https://planet-skin.com/cdn/shop/files/1_10_1800x.jpg?v=1698236253.");
+        container: flex;
+        height: 700px;
+        weight: 1800px;
+        box-sizing: border-box;
+        justify-items: right;
+        padding: 30px;
+    }
+ 
+    .spf {
+        color: white;
+        font-size: 30px;
+        margin-top: 200px;
+        margin-bottom: -30px;
+        margin-left: 25px;
+    }
+
+    .num {
+        color: white;
+        font-size: 190px;
+        font-weight: bolder;
+        margin-bottom: -30px;
+    }
+
+    .nuevo {
+        color: rgb(200, 200, 27);
+        font-weight: bolder;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-bottom: 10px;
+    }
+
+    .protector {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .solar {
+        color: white;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .sun {
+       color: rgba(76, 141, 220, 0.63);
+    background-color: white;
+    border-radius: 5px;
+    }
+
+    .product {
+        color: white;
+        font-size: 8px;
+        letter-spacing: 6px;
+        margin-top: 10px;
+        margin-bottom:15px;
+    }
+
+    .texto {
+        color: white;
+        margin-top: 20 px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border:none;
+        font-weight: lighter;
+        cursor: pointer;
+        background-color:rgb(247, 170, 170);
+        color: white;
+        border-radius: 30px;
+        font-size: 10px;
+        padding: 4px;
+    }
